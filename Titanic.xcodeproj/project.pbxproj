@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA85C9E203ABF4F00928FC0 /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF32FB520358EBC00A212C6 /* NeuralNet.swift */; };
+		ADC736AE202F760B000368FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC736AD202F760B000368FA /* main.swift */; };
+		ADC736B5202F770C000368FA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC736B4202F770C000368FA /* File.swift */; };
+		ADC736B7202F7B66000368FA /* FileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC736B6202F7B66000368FA /* FileParser.swift */; };
+		ADF32FBA203593D700A212C6 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF32FB9203593D700A212C6 /* Activation.swift */; };
+		ADF32FBE2035C2EA00A212C6 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF32FBD2035C2EA00A212C6 /* Random.swift */; };
+		ADF32FD120361AC900A212C6 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF32FCD2035D9B300A212C6 /* Matrix.swift */; };
+		ADF32FD220361AC900A212C6 /* MatrixExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF32FCF2035DCEF00A212C6 /* MatrixExtentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADC736A8202F760B000368FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ADA85C9C203ABA8C00928FC0 /* NeuralNetBaias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetBaias.swift; sourceTree = "<group>"; };
+		ADC736AA202F760B000368FA /* Titanic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Titanic; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC736AD202F760B000368FA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ADC736B4202F770C000368FA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		ADC736B6202F7B66000368FA /* FileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileParser.swift; sourceTree = "<group>"; };
+		ADF32FB520358EBC00A212C6 /* NeuralNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNet.swift; sourceTree = "<group>"; };
+		ADF32FB72035937600A212C6 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		ADF32FB9203593D700A212C6 /* Activation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		ADF32FBD2035C2EA00A212C6 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		ADF32FCD2035D9B300A212C6 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		ADF32FCF2035DCEF00A212C6 /* MatrixExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixExtentions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC736A7202F760B000368FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC736A1202F760A000368FA = {
+			isa = PBXGroup;
+			children = (
+				ADF32FD320361BCF00A212C6 /* Old */,
+				ADC736AC202F760B000368FA /* Titanic */,
+				ADC736AB202F760B000368FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC736AB202F760B000368FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC736AA202F760B000368FA /* Titanic */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC736AC202F760B000368FA /* Titanic */ = {
+			isa = PBXGroup;
+			children = (
+				ADF32FB9203593D700A212C6 /* Activation.swift */,
+				ADC736B4202F770C000368FA /* File.swift */,
+				ADC736B6202F7B66000368FA /* FileParser.swift */,
+				ADC736AD202F760B000368FA /* main.swift */,
+				ADF32FCD2035D9B300A212C6 /* Matrix.swift */,
+				ADF32FCF2035DCEF00A212C6 /* MatrixExtentions.swift */,
+				ADF32FB520358EBC00A212C6 /* NeuralNet.swift */,
+				ADF32FBD2035C2EA00A212C6 /* Random.swift */,
+			);
+			path = Titanic;
+			sourceTree = "<group>";
+		};
+		ADF32FD320361BCF00A212C6 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				ADF32FB72035937600A212C6 /* Layer.swift */,
+				ADA85C9C203ABA8C00928FC0 /* NeuralNetBaias.swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC736A9202F760B000368FA /* Titanic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC736B1202F760B000368FA /* Build configuration list for PBXNativeTarget "Titanic" */;
+			buildPhases = (
+				ADC736A6202F760B000368FA /* Sources */,
+				ADC736A7202F760B000368FA /* Frameworks */,
+				ADC736A8202F760B000368FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Titanic;
+			productName = Titanic;
+			productReference = ADC736AA202F760B000368FA /* Titanic */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC736A2202F760B000368FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anton Roslund";
+				TargetAttributes = {
+					ADC736A9202F760B000368FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADC736A5202F760B000368FA /* Build configuration list for PBXProject "Titanic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADC736A1202F760A000368FA;
+			productRefGroup = ADC736AB202F760B000368FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC736A9202F760B000368FA /* Titanic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC736A6202F760B000368FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF32FD220361AC900A212C6 /* MatrixExtentions.swift in Sources */,
+				ADC736AE202F760B000368FA /* main.swift in Sources */,
+				ADF32FBE2035C2EA00A212C6 /* Random.swift in Sources */,
+				ADC736B7202F7B66000368FA /* FileParser.swift in Sources */,
+				ADF32FD120361AC900A212C6 /* Matrix.swift in Sources */,
+				ADA85C9E203ABF4F00928FC0 /* NeuralNet.swift in Sources */,
+				ADF32FBA203593D700A212C6 /* Activation.swift in Sources */,
+				ADC736B5202F770C000368FA /* File.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ADC736AF202F760B000368FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADC736B0202F760B000368FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		ADC736B2202F760B000368FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QH7FM2T9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ADC736B3202F760B000368FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QH7FM2T9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC736A5202F760B000368FA /* Build configuration list for PBXProject "Titanic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC736AF202F760B000368FA /* Debug */,
+				ADC736B0202F760B000368FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC736B1202F760B000368FA /* Build configuration list for PBXNativeTarget "Titanic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC736B2202F760B000368FA /* Debug */,
+				ADC736B3202F760B000368FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC736A2202F760B000368FA /* Project object */;
+}
